@@ -17,7 +17,7 @@
 .light {
   --textcolor: black;
   --bg-url: url(./assets/bg-desktop-light.jpg);
-  --stroke-color:  rgba(0, 0, 0, 0.1);
+  --stroke-color: rgba(0, 0, 0, 0.1);
   --stroke-color-hover: black;
   --surface-color: rgba(0, 0, 0, 0.05);
   --highlight-color: rgba(0, 0, 0, 0.1);
@@ -34,7 +34,8 @@ body * {
 }
 
 #main-container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0px 24px;
 }
